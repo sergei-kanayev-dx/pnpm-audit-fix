@@ -1,0 +1,1007 @@
+{
+  "fixes": [
+    {
+      "module": "@angular/platform-server",
+      "current": "20.3.27",
+      "severity": "high",
+      "advisoryId": 1204763,
+      "title": "Angular: SSR XSS via Unescaped \u003ctemplate\u003e Content Across DocumentFragment Boundaries in Fallback Raw-Content Elements",
+      "url": "https://github.com/advisories/GHSA-v3p8-whq6-r5jg",
+      "patched": "\u003e=20.3.30",
+      "dev": true,
+      "optional": true,
+      "resolution": "bump",
+      "update": {
+        "package": "@angular/platform-server",
+        "from": "20.3.27",
+        "to": "20.3.30"
+      },
+      "reason": "@angular/platform-server@20.3.30 satisfies the declared range \"^20.0.0\" and leaves @angular/platform-server patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/platform-server"
+      ],
+      "pathCount": 4
+    },
+    {
+      "module": "@angular/platform-server",
+      "current": "20.3.27",
+      "severity": "high",
+      "advisoryId": 1204767,
+      "title": "Angular: SSRF and Cross-Origin Credential Disclosure via URL Resolution Discrepancy in SSR",
+      "url": "https://github.com/advisories/GHSA-f6mr-pjwc-34m4",
+      "patched": "\u003e=20.3.30",
+      "dev": true,
+      "optional": true,
+      "resolution": "bump",
+      "update": {
+        "package": "@angular/platform-server",
+        "from": "20.3.27",
+        "to": "20.3.30"
+      },
+      "reason": "@angular/platform-server@20.3.30 satisfies the declared range \"^20.0.0\" and leaves @angular/platform-server patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/platform-server"
+      ],
+      "pathCount": 4
+    },
+    {
+      "module": "browserslist",
+      "current": "4.28.4",
+      "severity": "high",
+      "advisoryId": 1153171,
+      "title": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
+      "url": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx",
+      "patched": "\u003e=4.28.7",
+      "resolution": "bump",
+      "update": {
+        "package": "browserslist",
+        "from": "4.28.4",
+        "to": "4.28.7"
+      },
+      "reason": "browserslist@4.28.7 satisfies the declared range \"^4.24.0\" and leaves browserslist patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/compiler-cli",
+        "@babel/core",
+        "@babel/helper-compilation-targets",
+        "browserslist"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "browserslist",
+      "current": "4.28.4",
+      "severity": "high",
+      "advisoryId": 1153172,
+      "title": "Browserslist: Uncaught crash / prototype write via untrusted browserslist-stats.json custom stats (normalizeStats)",
+      "url": "https://github.com/advisories/GHSA-73wf-gq98-2v4g",
+      "patched": "\u003e=4.28.7",
+      "resolution": "bump",
+      "update": {
+        "package": "browserslist",
+        "from": "4.28.4",
+        "to": "4.28.7"
+      },
+      "reason": "browserslist@4.28.7 satisfies the declared range \"^4.24.0\" and leaves browserslist patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/compiler-cli",
+        "@babel/core",
+        "@babel/helper-compilation-targets",
+        "browserslist"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "fast-uri",
+      "current": "3.1.5",
+      "severity": "high",
+      "advisoryId": 1158521,
+      "title": "fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
+      "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
+      "patched": "\u003e=3.1.6",
+      "resolution": "bump",
+      "update": {
+        "package": "fast-uri",
+        "from": "3.1.5",
+        "to": "3.1.6"
+      },
+      "reason": "fast-uri@3.1.6 satisfies the declared range \"^3.0.1\" and leaves fast-uri patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "devextreme-angular",
+        "@angular-devkit/schematics",
+        "@angular-devkit/core",
+        "ajv",
+        "fast-uri"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "fast-uri",
+      "current": "3.1.5",
+      "severity": "high",
+      "advisoryId": 1158524,
+      "title": "fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
+      "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
+      "patched": "\u003e=3.1.6",
+      "resolution": "bump",
+      "update": {
+        "package": "fast-uri",
+        "from": "3.1.5",
+        "to": "3.1.6"
+      },
+      "reason": "fast-uri@3.1.6 satisfies the declared range \"^3.0.1\" and leaves fast-uri patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "devextreme-angular",
+        "@angular-devkit/schematics",
+        "@angular-devkit/core",
+        "ajv",
+        "fast-uri"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "fast-uri",
+      "current": "3.1.5",
+      "severity": "high",
+      "advisoryId": 1158527,
+      "title": "fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
+      "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
+      "patched": "\u003e=3.1.6",
+      "resolution": "bump",
+      "update": {
+        "package": "fast-uri",
+        "from": "3.1.5",
+        "to": "3.1.6"
+      },
+      "reason": "fast-uri@3.1.6 satisfies the declared range \"^3.0.1\" and leaves fast-uri patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "devextreme-angular",
+        "@angular-devkit/schematics",
+        "@angular-devkit/core",
+        "ajv",
+        "fast-uri"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "fast-uri",
+      "current": "3.1.5",
+      "severity": "high",
+      "advisoryId": 1158530,
+      "title": "fast-uri vulnerable to host confusion via percent-encoded scheme normalization",
+      "url": "https://github.com/advisories/GHSA-jqff-g426-hqxp",
+      "patched": "\u003e=3.1.6",
+      "resolution": "bump",
+      "update": {
+        "package": "fast-uri",
+        "from": "3.1.5",
+        "to": "3.1.6"
+      },
+      "reason": "fast-uri@3.1.6 satisfies the declared range \"^3.0.1\" and leaves fast-uri patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "devextreme-angular",
+        "@angular-devkit/schematics",
+        "@angular-devkit/core",
+        "ajv",
+        "fast-uri"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "js-yaml",
+      "current": "3.15.1",
+      "severity": "high",
+      "advisoryId": 1193726,
+      "title": "js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
+      "url": "https://github.com/advisories/GHSA-2883-xcg3-v3hh",
+      "patched": "\u003e=3.15.2",
+      "dev": true,
+      "resolution": "bump",
+      "update": {
+        "package": "js-yaml",
+        "from": "3.15.1",
+        "to": "3.15.2"
+      },
+      "reason": "js-yaml@3.15.2 satisfies the declared range \"^3.13.1\" and leaves js-yaml patched",
+      "path": [
+        "packages/dev-analytics-core",
+        "babel-jest",
+        "@jest/transform",
+        "babel-plugin-istanbul",
+        "@istanbuljs/load-nyc-config",
+        "js-yaml"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "js-yaml",
+      "current": "4.3.1",
+      "severity": "high",
+      "advisoryId": 1193727,
+      "title": "js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
+      "url": "https://github.com/advisories/GHSA-2883-xcg3-v3hh",
+      "patched": "\u003e=4.3.2",
+      "resolution": "bump",
+      "update": {
+        "package": "js-yaml",
+        "from": "4.3.1",
+        "to": "4.3.2"
+      },
+      "reason": "js-yaml@4.3.2 satisfies the declared range \"^4.1.1\" and leaves js-yaml patched",
+      "path": [
+        "apps/dashboard-react-app",
+        "@devexpress/eslint-plugin-dx-security",
+        "@microsoft/eslint-plugin-sdl",
+        "eslint",
+        "@eslint/eslintrc",
+        "js-yaml"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "smol-toml",
+      "current": "1.6.1",
+      "severity": "high",
+      "advisoryId": 1193945,
+      "title": "smol-toml: Denial of Service via malformed TOML documents",
+      "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2",
+      "patched": "\u003e=1.7.1",
+      "dev": true,
+      "resolution": "override",
+      "reason": "no package on this path can move to a version that resolves the advisory",
+      "path": [
+        ".",
+        "nx",
+        "smol-toml"
+      ],
+      "pathCount": 1
+    },
+    {
+      "module": "svgo",
+      "current": "2.8.3",
+      "severity": "high",
+      "advisoryId": 1193737,
+      "title": "SVGO: removeScripts allows executable links through namespace and control-character bypasses",
+      "url": "https://github.com/advisories/GHSA-w27v-7q3p-w38r",
+      "patched": "\u003e=2.8.4",
+      "dev": true,
+      "resolution": "bump",
+      "update": {
+        "package": "svgo",
+        "from": "2.8.3",
+        "to": "2.8.4"
+      },
+      "reason": "svgo@2.8.4 satisfies the declared range \"^2.7.0\" and leaves svgo patched",
+      "path": [
+        "packages/dev-analytics-core",
+        "gulp-svgmin",
+        "svgo"
+      ],
+      "pathCount": 3
+    },
+    {
+      "module": "@angular/common",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204771,
+      "title": "Angular: Information Leak via `HttpTransferCache` Bypass When Using `withRequestsMadeViaParent`",
+      "url": "https://github.com/advisories/GHSA-p297-fm68-3q8c",
+      "patched": "\u003e=20.3.28",
+      "resolution": "bump",
+      "update": {
+        "package": "@angular/common",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/common@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/common patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/common"
+      ],
+      "pathCount": 15
+    },
+    {
+      "module": "@angular/common",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204771,
+      "title": "Angular: Information Leak via `HttpTransferCache` Bypass When Using `withRequestsMadeViaParent`",
+      "url": "https://github.com/advisories/GHSA-p297-fm68-3q8c",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/forms",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/forms@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/common patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/forms",
+        "@angular/common"
+      ],
+      "pathCount": 28
+    },
+    {
+      "module": "@angular/common",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204771,
+      "title": "Angular: Information Leak via `HttpTransferCache` Bypass When Using `withRequestsMadeViaParent`",
+      "url": "https://github.com/advisories/GHSA-p297-fm68-3q8c",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/platform-browser",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/platform-browser@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/common patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/platform-browser",
+        "@angular/common"
+      ],
+      "pathCount": 11
+    },
+    {
+      "module": "@angular/common",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204771,
+      "title": "Angular: Information Leak via `HttpTransferCache` Bypass When Using `withRequestsMadeViaParent`",
+      "url": "https://github.com/advisories/GHSA-p297-fm68-3q8c",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/router",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/router@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/common patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/router",
+        "@angular/common"
+      ],
+      "pathCount": 8
+    },
+    {
+      "module": "@angular/common",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204771,
+      "title": "Angular: Information Leak via `HttpTransferCache` Bypass When Using `withRequestsMadeViaParent`",
+      "url": "https://github.com/advisories/GHSA-p297-fm68-3q8c",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/platform-server",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/platform-server@20.3.28 satisfies the declared range \"^20.0.0\" and leaves @angular/common patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/platform-server",
+        "@angular/common"
+      ],
+      "pathCount": 8
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/common",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/common@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/common",
+        "@angular/core",
+        "@angular/compiler"
+      ],
+      "pathCount": 7
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "bump",
+      "update": {
+        "package": "@angular/compiler",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/compiler@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/compiler"
+      ],
+      "pathCount": 7
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/core",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/core@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/core",
+        "@angular/compiler"
+      ],
+      "pathCount": 10
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/forms",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/forms@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/forms",
+        "@angular/common",
+        "@angular/core",
+        "@angular/compiler"
+      ],
+      "pathCount": 25
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/platform-browser",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/platform-browser@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/platform-browser",
+        "@angular/common",
+        "@angular/core",
+        "@angular/compiler"
+      ],
+      "pathCount": 14
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/router",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/router@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/router",
+        "@angular/common",
+        "@angular/core",
+        "@angular/compiler"
+      ],
+      "pathCount": 12
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/compiler-cli",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/compiler-cli@20.3.28 satisfies the declared range \"^20.0.0\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/compiler-cli",
+        "@angular/compiler"
+      ],
+      "pathCount": 10
+    },
+    {
+      "module": "@angular/compiler",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204776,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/platform-server",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/platform-server@20.3.28 satisfies the declared range \"^20.0.0\" and leaves @angular/compiler patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/platform-server",
+        "@angular/common",
+        "@angular/core",
+        "@angular/compiler"
+      ],
+      "pathCount": 15
+    },
+    {
+      "module": "@angular/core",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204777,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/common",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/common@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/core patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/common",
+        "@angular/core"
+      ],
+      "pathCount": 10
+    },
+    {
+      "module": "@angular/core",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204777,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "bump",
+      "update": {
+        "package": "@angular/core",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/core@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/core patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/core"
+      ],
+      "pathCount": 13
+    },
+    {
+      "module": "@angular/core",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204777,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/forms",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/forms@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/core patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/forms",
+        "@angular/common",
+        "@angular/core"
+      ],
+      "pathCount": 37
+    },
+    {
+      "module": "@angular/core",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204777,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/platform-browser",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/platform-browser@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/core patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/platform-browser",
+        "@angular/common",
+        "@angular/core"
+      ],
+      "pathCount": 16
+    },
+    {
+      "module": "@angular/core",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204777,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/router",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/router@20.3.28 satisfies the declared range \"^20.3.27\" and leaves @angular/core patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/router",
+        "@angular/common",
+        "@angular/core"
+      ],
+      "pathCount": 12
+    },
+    {
+      "module": "@angular/core",
+      "current": "20.3.27",
+      "severity": "moderate",
+      "advisoryId": 1204777,
+      "title": "Angular: Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "url": "https://github.com/advisories/GHSA-hh8m-fm6v-7cvg",
+      "patched": "\u003e=20.3.28",
+      "resolution": "update-parent",
+      "update": {
+        "package": "@angular/platform-server",
+        "from": "20.3.27",
+        "to": "20.3.28"
+      },
+      "reason": "@angular/platform-server@20.3.28 satisfies the declared range \"^20.0.0\" and leaves @angular/core patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/platform-server",
+        "@angular/common",
+        "@angular/core"
+      ],
+      "pathCount": 12
+    },
+    {
+      "module": "@humanfs/node",
+      "current": "0.16.7",
+      "severity": "moderate",
+      "advisoryId": 1158499,
+      "title": "humanfs: Recursive copy follows symlinked files and copies data from outside the source tree",
+      "url": "https://github.com/advisories/GHSA-p498-v437-472g",
+      "patched": "\u003e=0.16.8",
+      "resolution": "bump",
+      "update": {
+        "package": "@humanfs/node",
+        "from": "0.16.7",
+        "to": "0.16.8"
+      },
+      "reason": "@humanfs/node@0.16.8 satisfies the declared range \"^0.16.6\" and leaves @humanfs/node patched",
+      "path": [
+        "apps/dashboard-react-app",
+        "@devexpress/eslint-plugin-dx-security",
+        "@microsoft/eslint-plugin-sdl",
+        "eslint",
+        "@humanfs/node"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "baseline-browser-mapping",
+      "current": "2.10.40",
+      "severity": "moderate",
+      "advisoryId": 1193686,
+      "title": "baseline-browser-mapping process termination on invalid input causes denial of service",
+      "url": "https://github.com/advisories/GHSA-w5vr-8v7q-w6rv",
+      "patched": "\u003e=2.11.0",
+      "resolution": "bump",
+      "update": {
+        "package": "baseline-browser-mapping",
+        "from": "2.10.40",
+        "to": "2.11.0"
+      },
+      "reason": "baseline-browser-mapping@2.11.0 satisfies the declared range \"^2.10.38\" and leaves baseline-browser-mapping patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "@angular/compiler-cli",
+        "@babel/core",
+        "@babel/helper-compilation-targets",
+        "browserslist",
+        "baseline-browser-mapping"
+      ],
+      "pathCount": 100
+    },
+    {
+      "module": "hono",
+      "current": "4.13.1",
+      "severity": "moderate",
+      "advisoryId": 1193729,
+      "title": "Hono: Incomplete fix for CVE-2026-39408: `toSSG()` still writes files outside the output directory",
+      "url": "https://github.com/advisories/GHSA-gqvv-2mrq-wpjv",
+      "patched": "\u003e=4.13.5",
+      "dev": true,
+      "resolution": "bump",
+      "update": {
+        "package": "hono",
+        "from": "4.13.1",
+        "to": "4.13.5"
+      },
+      "reason": "hono@4.13.5 satisfies the declared range \"^4\" and leaves hono patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/cli",
+        "@modelcontextprotocol/sdk",
+        "@hono/node-server",
+        "hono"
+      ],
+      "pathCount": 8
+    },
+    {
+      "module": "hono",
+      "current": "4.13.1",
+      "severity": "moderate",
+      "advisoryId": 1193730,
+      "title": "Hono: Unbounded dot-notation nesting in `parseBody()` can cause memory exhaustion",
+      "url": "https://github.com/advisories/GHSA-g6gw-c38x-mqfc",
+      "patched": "\u003e=4.13.5",
+      "dev": true,
+      "resolution": "bump",
+      "update": {
+        "package": "hono",
+        "from": "4.13.1",
+        "to": "4.13.5"
+      },
+      "reason": "hono@4.13.5 satisfies the declared range \"^4\" and leaves hono patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/cli",
+        "@modelcontextprotocol/sdk",
+        "@hono/node-server",
+        "hono"
+      ],
+      "pathCount": 8
+    },
+    {
+      "module": "hono",
+      "current": "4.13.1",
+      "severity": "moderate",
+      "advisoryId": 1193731,
+      "title": "Hono: Query parser reads parameters after the URL fragment, causing cache-key and proxy interpretation differentials",
+      "url": "https://github.com/advisories/GHSA-crvj-82cr-hjcx",
+      "patched": "\u003e=4.13.5",
+      "dev": true,
+      "resolution": "bump",
+      "update": {
+        "package": "hono",
+        "from": "4.13.1",
+        "to": "4.13.5"
+      },
+      "reason": "hono@4.13.5 satisfies the declared range \"^4\" and leaves hono patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/cli",
+        "@modelcontextprotocol/sdk",
+        "@hono/node-server",
+        "hono"
+      ],
+      "pathCount": 8
+    },
+    {
+      "module": "qs",
+      "current": "6.15.3",
+      "severity": "moderate",
+      "advisoryId": 1158506,
+      "title": "qs array-limit bypass via bracket-key comma parsing",
+      "url": "https://github.com/advisories/GHSA-x5fp-wj9c-mxmx",
+      "patched": "\u003e=6.16.0",
+      "resolution": "update-parent",
+      "update": {
+        "package": "body-parser",
+        "from": "1.20.6",
+        "to": "1.20.8"
+      },
+      "reason": "body-parser@1.20.8 satisfies the declared range \"^1.19.0\" and leaves qs patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "karma",
+        "body-parser",
+        "qs"
+      ],
+      "pathCount": 9
+    },
+    {
+      "module": "qs",
+      "current": "6.15.3",
+      "severity": "moderate",
+      "advisoryId": 1158506,
+      "title": "qs array-limit bypass via bracket-key comma parsing",
+      "url": "https://github.com/advisories/GHSA-x5fp-wj9c-mxmx",
+      "patched": "\u003e=6.16.0",
+      "resolution": "bump",
+      "update": {
+        "package": "qs",
+        "from": "6.15.3",
+        "to": "6.16.0"
+      },
+      "reason": "qs@6.16.0 satisfies the declared range \"^6.15.2\" and leaves qs patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/cli",
+        "@modelcontextprotocol/sdk",
+        "express",
+        "body-parser",
+        "qs"
+      ],
+      "pathCount": 19
+    },
+    {
+      "module": "qs",
+      "current": "6.15.3",
+      "severity": "moderate",
+      "advisoryId": 1158507,
+      "title": "qs: Denial of Service via Attacker Controlled isBuffer",
+      "url": "https://github.com/advisories/GHSA-4mjr-xmp4-gh2g",
+      "patched": "\u003e=6.16.0",
+      "resolution": "update-parent",
+      "update": {
+        "package": "body-parser",
+        "from": "1.20.6",
+        "to": "1.20.8"
+      },
+      "reason": "body-parser@1.20.8 satisfies the declared range \"^1.19.0\" and leaves qs patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/build",
+        "karma",
+        "body-parser",
+        "qs"
+      ],
+      "pathCount": 9
+    },
+    {
+      "module": "qs",
+      "current": "6.15.3",
+      "severity": "moderate",
+      "advisoryId": 1158507,
+      "title": "qs: Denial of Service via Attacker Controlled isBuffer",
+      "url": "https://github.com/advisories/GHSA-4mjr-xmp4-gh2g",
+      "patched": "\u003e=6.16.0",
+      "resolution": "bump",
+      "update": {
+        "package": "qs",
+        "from": "6.15.3",
+        "to": "6.16.0"
+      },
+      "reason": "qs@6.16.0 satisfies the declared range \"^6.15.2\" and leaves qs patched",
+      "path": [
+        "apps/dashboard-angular-app",
+        "@angular/cli",
+        "@modelcontextprotocol/sdk",
+        "express",
+        "body-parser",
+        "qs"
+      ],
+      "pathCount": 19
+    },
+    {
+      "module": "svgo",
+      "current": "2.8.3",
+      "severity": "moderate",
+      "advisoryId": 1193740,
+      "title": "SVGO: removeScripts incompletely sanitizes executable HTML in SVG foreignObject elements",
+      "url": "https://github.com/advisories/GHSA-4vpr-x523-8j87",
+      "patched": "\u003e=2.8.4",
+      "dev": true,
+      "resolution": "bump",
+      "update": {
+        "package": "svgo",
+        "from": "2.8.3",
+        "to": "2.8.4"
+      },
+      "reason": "svgo@2.8.4 satisfies the declared range \"^2.7.0\" and leaves svgo patched",
+      "path": [
+        "packages/dev-analytics-core",
+        "gulp-svgmin",
+        "svgo"
+      ],
+      "pathCount": 3
+    },
+    {
+      "module": "body-parser",
+      "current": "2.2.2",
+      "severity": "low",
+      "advisoryId": 1123976,
+      "title": "body-parser vulnerable to denial of service when invalid limit value silently disables size enforcement",
+      "url": "https://github.com/advisories/GHSA-v422-hmwv-36x6",
+      "patched": "\u003e=2.3.0",
+      "optional": true,
+      "resolution": "override",
+      "reason": "no package on this path can move to a version that resolves the advisory",
+      "path": [
+        "tools/make-sbom",
+        "@devexpress/sbom-toolkit",
+        "@cyclonedx/cdxgen",
+        "body-parser"
+      ],
+      "pathCount": 1
+    }
+  ],
+  "summary": {
+    "advisories": 24,
+    "bySeverity": {
+      "critical": 0,
+      "high": 12,
+      "info": 0,
+      "low": 1,
+      "moderate": 11
+    },
+    "byResolution": {
+      "bump": 22,
+      "override": 2,
+      "update-parent": 18
+    },
+    "totalDependencies": 2293
+  }
+}
